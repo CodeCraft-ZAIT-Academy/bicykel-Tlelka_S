@@ -1,0 +1,202 @@
+
+.presmerovanie{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.presmerovanie:hover{
+    transform: scale(1.50);
+}
+
+
+
+
+.body1 {
+    height: 3000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.header1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: lightpink;
+    height: 80px;
+}
+.sidebar1 {
+    position: fixed;
+    top: 80px;
+    bottom: 0px;
+    left: 0px;
+    width: 60px;
+    background-color: lightsalmon;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.uvod_div {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-color: darkgrey;
+    margin-bottom: 10px;
+}
+        .uvod_cele_div {
+        background-color: lightcoral;
+         flex: 1;
+        }
+            .uvod_nadpis {
+                height: 60px;
+                background-color: lightgreen;
+                margin-top: -40px;
+            }
+            .uvod_nadpis_opis1{
+                font-size: 35px;
+                margin-left:80px;
+                margin-right: 80px;
+                margin-top: -5px;    
+                text-align: center;        
+            }
+
+
+
+
+
+
+
+
+            .uvod_nadpis_text {
+                color: black;
+                text-align: center;
+                font-size: 60px;
+            }
+            .uvod_nadpis_opis{
+                font-size: 35px;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: -5px;            
+            }
+
+
+
+
+
+
+
+
+
+.uvod_div2 {
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    background-color: darkgrey;
+    margin-bottom: 10px;
+}
+        .uvod_prava_div2 {
+            width: 525px;
+        }
+            .uvod_prava_obrazok2 {
+                height: 350px;
+                width: 525px;
+            }  
+        .uvod_lava_div2 {
+        background-color: lightcoral;
+         flex: 1;
+        }
+            .uvod_nadpis2 {
+                height: 60px;
+                background-color: lightgreen;
+                margin-top: -40px;
+            }
+
+
+
+
+
+
+
+
+
+.uvod_div3 {
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    background-color: darkgrey;
+    margin-bottom: 10px;
+}
+        .uvod_prava_div3 {
+            width: 525px;
+        }
+            .uvod_prava_obrazok3 {
+                height: 350px;
+                width: 525px;
+                object-fit: scale-down;
+            }  
+        .uvod_lava_div3 {
+        background-color: lightcoral;
+         flex: 1;
+        }
+            .uvod_nadpis3 {
+                height: 60px;
+                background-color: lightgreen;
+                margin-top: -40px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+            .uvod_div4 {
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    background-color: darkgrey;
+    margin-bottom: 10px;
+}
+        .uvod_prava_div4 {
+            width: 525px;
+        }
+            .uvod_prava_obrazok4 {
+                height: 350px;
+                width: 525px;
+                object-fit: cover;
+            }  
+        .uvod_lava_div4 {
+        background-color: lightcoral;
+         flex: 1;
+        }
+            .uvod_nadpis4 {
+                height: 60px;
+                background-color: lightgreen;
+                margin-top: -40px;
+            }

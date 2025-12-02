@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YT demo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        .thumbnail {
+            width: 300px;
+            display: block;
+        }
+
+        .search-bar {
+            font-size: 20px;
+            display: block;
+        }
+
+        .video-title {
+            width: 200px;
+            display: inline-block;
+            font-weight: 500
+        }
+
+        .div-preview {
+            display: inline-block;
+        }
+
+        .div-picture {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .video-info {
+            display: inline-block;
+        }
+
+        .profile-pic {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin: 3px;
+            margin-top: 5px;
+        }
+
+        p {
+            font-family: Roboto;
+            margin: 5px;
+        }
+
+        .video-stats {
+            color: gray;
+            font-size: smaller;
+        }
+
+        .video-author {
+            color: gray;
+            font-size: smaller;
+        }
+
+        .popis-videa {
+            margin-top: 10px;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 15px;
+            row-gap: 30px;
+        }
+
+        .video-info-grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+    </style>
+</head>
+
+<body>
+
+   
+
+
+
+
+
+    <div
+        style="display: flex;flex-direction: row;margin-bottom: 30px;margin-top: 15px; height: 50px;justify-content: space-between;align-items: center;background-color: rgb(255, 255, 255);">
+      
+
+        <div style="display: flex;flex-direction: row;justify-content: left;">
+<div style="width: 50px;height: 50px;"><img style="width: 28px;height: 28px;margin-top: 11px;margin-left: 11px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIGgyi-1_qv_pQmhoN_sJHIyw3ZU3R9XvHCg&s" alt=""></div>
+<div style="height: 50px;"><img style="height: 32px;margin-top: 9px;margin-left: 23px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR77QgxyLTic6D5sIsPgAHs0m93NWSxOVDQ8g&s" alt=""></div>
+        </div>
+
+
+  <div style="display: flex;flex-direction: row;justify-content: center;">
+<div> <input style="font-size: 20px; display: block;width: 500px;font-size: 15px;height: 34px;margin-top: 5px;" placeholder="Search"></div>
+<div style="height: 40px;width: 60px;background-color: rgb(130, 130, 130);margin-top: 5px;"><img style="height: 32px;margin-left: 13px;margin-top: 4px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU3JkqKgzLPL7_Fc-jfdgYYlKgZI34WAo9-g&s" alt=""></div>
+        <div style="height: 50px;"><img style="height: 26px;margin-left: 15px;margin-top: 12px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_cq-WYKTvb9gBViqZQn24jm7OGHQQAlDumQ&s" alt=""></div>
+</div>
+
+
+
+<div style="display: flex;flex-direction: row;justify-content: right;">
+
+    <div style="height: 50px"><img style="height: 32px;margin-top: 9px;margin-right: 25px;" src="https://cdn0.iconfinder.com/data/icons/photo-and-video-3/24/116-512.png" alt=""></div>
+    <div style="height: 50px"><img style="height: 25px;margin-top: 13px;margin-right: 25px;" src="https://cdn-icons-png.flaticon.com/512/80/80975.png" alt=""></div>
+    <div style="height: 50px"><img style="height: 34px;margin-right: 22px;margin-top: 7px;" src="https://cdn-icons-png.flaticon.com/512/8310/8310386.png" alt=""></div>
+    <div style="height: 50px"><img style="height: 40px;margin-top: 5px;margin-right: 6px;border-radius: 22px;" src="https://yt3.googleusercontent.com/wem8T7kw8QDOQvrhPfz7VsFEAP8WF11YNP8faMSpCHFW8SfMnUpILIMEqx9M4-S55DX5fq7SLT0=s160-c-k-c0x00ffffff-no-rj" alt=""></div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+    <div class="video-grid">
+
+        <div class="div-preview">
+            <div> <img
+                    src="https://i.ytimg.com/vi/h1YiVT1VZmg/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHUBoAC4AOKAgwIABABGGEgYShhMA8=&rs=AOn4CLCJnzZh9e2DCcdcoQBd83GhpkWRWA"
+                    class=thumbnail>
+            </div>
+            <div class="popis-videa">
+                <div class="div-picture">
+
+                    <div class="video-info-grid">
+
+                        <img class="profile-pic"
+                            src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740&q=80"
+                            alt="">
+
+
+
+                        <div>
+                            <p class="video-title">Halo | Epic Music Mix with Combat Ambiance</p>
+                            <p class="video-author">LittleWindstar</p>
+                            <p class="video-stats">1,2 mil. zhliadnutí • pred 4 rokmi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="div-preview">
+            <div> <img
+                    src="https://i.ytimg.com/vi/P2A55wfGAZg/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLATsSy0g7JeWd0jQ7UTrB7h5JUevg"
+                    class=thumbnail>
+            </div>
+            <div class="popis-videa">
+                <div class="div-picture">
+
+                    <div class="video-info-grid">
+
+                        <img class="profile-pic"
+                            src="https://yt3.ggpht.com/bM6D-oysb4d53mxICjh53bMZddLQLwvyivnFwOF-oulWEEa9UCtMOZiYXQN1rJvpkdee1fLs=s48-c-k-c0x00ffffff-no-rj"
+                            alt="">
+
+
+
+                        <div>
+                            <p class="video-title">BMW M4 CSL vs Porsche 911 GT3 Touring (4K)</p>
+                            <p class="video-author">CAR magazine</p>
+                            <p class="video-stats">205 tis. zhliadnutí pred 3 rokmi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div-preview">
+            <div> <img
+                    src="https://i.ytimg.com/vi/3Zv19T07mLg/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBGm56Tk9Pnxe5P1SOSRbjm2wsHNA"
+                    class=thumbnail>
+            </div>
+            <div class="popis-videa">
+                <div class="div-picture">
+
+                    <div class="video-info-grid">
+
+                        <img class="profile-pic"
+                            src="https://yt3.ggpht.com/iZU2P7-ccFrLRJKmCuaprK7fCh2BNx25XDCluC7v2uXkqME4EAQ6YLPJn2wvOXxhYZmD-4Aa=s48-c-k-c0x00ffffff-no-rj"
+                            alt="">
+
+
+
+                        <div>
+                            <p class="video-title">FARMING WITH TANKS - CAN A CHIEFTAIN OUT-PLOUGH A TRACTOR?</p>
+                            <p class="video-author">Mr Hewes</p>
+                            <p class="video-stats">
+                                576 tis. zhliadnutí pred 1 mesiacom</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div-preview">
+            <div> <img
+                    src="https://i.ytimg.com/vi/ykv63-jYMbo/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAM0lcZXS-941AZ4KNk69DOVaX4BA"
+                    class=thumbnail>
+            </div>
+            <div class="popis-videa">
+                <div class="div-picture">
+
+                    <div class="video-info-grid">
+
+                        <img class="profile-pic"
+                            src="https://yt3.ggpht.com/g6gQGNjbvNGJl9aNiCEJZJxqXYJ920KeaID_jWbVV6Unsu85-YLhotcG1LLD4ppEKZF6Fgtlofw=s48-c-k-c0x00ffffff-no-rj"
+                            alt="">
+
+
+
+                        <div>
+                            <p class="video-title">Halo s Best EVER Campaign Mission…</p>
+                            <p class="video-author">SGTBlairTV</p>
+                            <p class="video-stats">1,5 tis. zhliadnutí  pred 3 dňami</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div-preview">
+            <div> <img
+                    src="https://i.ytimg.com/vi/1yMozrDEqbg/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDN6HdIPBOkH2-wPPV4BVnX_fphqw"
+                    class=thumbnail>
+            </div>
+            <div class="popis-videa">
+                <div class="div-picture">
+
+                    <div class="video-info-grid">
+
+                        <img class="profile-pic"
+                            src="https://yt3.ggpht.com/KfzBoO7zxKu2c0J08JCKc37pHrnXq-efXN2aXiTsaXMd48F6aJ5oB4S5bSEuLbnI5Wm1uF5zOQ=s48-c-k-c0x00ffffff-no-rj"
+                            alt="">
+
+
+
+                        <div>
+                            <p class="video-title">how to make pickle pepsi at home for free</p>
+                            <p class="video-author">M&Jmetal</p>
+                            <p class="video-stats">3,8 tril. zhliadnutí pred 1 mesiacom</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div-preview">
+            <div> <img
+                    src="https://i.ytimg.com/vi/h1YiVT1VZmg/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHUBoAC4AOKAgwIABABGGEgYShhMA8=&rs=AOn4CLCJnzZh9e2DCcdcoQBd83GhpkWRWA"
+                    class=thumbnail>
+            </div>
+            <div class="popis-videa">
+                <div class="div-picture">
+
+                    <div class="video-info-grid">
+
+                        <img class="profile-pic"
+                            src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740&q=80"
+                            alt="">
+
+
+
+                        <div>
+                            <p class="video-title">Halo | Epic Music Mix with Combat Ambiance</p>
+                            <p class="video-author">LittleWindstar</p>
+                            <p class="video-stats">1,2 mil. zhliadnutí • pred 4 rokmi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
+</html>
