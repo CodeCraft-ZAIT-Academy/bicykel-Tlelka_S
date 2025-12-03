@@ -1,0 +1,165 @@
+.header1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(210, 210, 210);
+    height: 80px;
+    display: flex;
+    justify-content: right;
+}
+
+.horna_lista_ikony{
+    display: flex;
+    height: 60px;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.horna_lista_ikona1_obrazok{width: 100px;height: 65px;object-fit: scale-down;margin-top: -2px;}
+.horna_lista_ikona2_obrazok{width: 100px;height: 50px;object-fit: scale-down;margin-top: 5px;}
+.horna_lista_ikona3_obrazok{width: 100px;height: 50px;object-fit: scale-down;margin-top: 5px;}
+
+
+
+.body1 {
+    height: 3000px;
+}
+
+
+
+
+
+.uvod_nadpis_div{
+    height: 100px;
+    background-color: #ffbf66;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 13px;
+    }
+.uvod_nadpis{
+    font-size: 70px;
+}
+
+.div_obsah1{
+    background-color: rgb(252, 252, 252);
+    height: 380px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border-bottom: 5px solid rgb(151, 151, 151);
+    border-top:5px solid rgb(151, 151, 151) ;
+
+}
+.obsah1{
+    font-size: 35px;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-align: center;
+}
+
+.div_obsah2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.obsah2_1{
+    font-size: 30px;
+text-align: center;
+}
+
+.obsah2_2{
+    font-size: 27px;
+    text-align: center;
+}
+
+.div_obsah2_5{
+    display: flex;
+    flex-direction: row;
+    height: 195px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 30px;
+}
+        .div_obsah2_6{
+            flex: 1;
+            text-align: center;
+            font-size: 20px;
+        }
+        .obsah2_3{
+            font-size: 28px;
+            margin-top: 15px;
+            margin-bottom: -5px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
