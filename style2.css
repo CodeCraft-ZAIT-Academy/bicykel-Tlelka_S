@@ -7,6 +7,8 @@
     height: 80px;
     display: flex;
     justify-content: right;
+    padding-top: 7px;
+    z-index: 117;
 }
 
 .horna_lista_ikony{
@@ -18,6 +20,16 @@
     margin-right: 50px;
     border-radius: 20px;
 }
+.horna_lista_ikony0{
+    display: flex;
+    height: 60px;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    margin-right: 1110px;
+    border-radius: 20px;
+}
+.horna_lista_ikona0_obrazok{width: 100px;height: 65px;object-fit: scale-down;margin-top: -2px;}
 .horna_lista_ikona1_obrazok{width: 100px;height: 65px;object-fit: scale-down;margin-top: -2px;}
 .horna_lista_ikona2_obrazok{width: 100px;height: 50px;object-fit: scale-down;margin-top: 5px;}
 .horna_lista_ikona3_obrazok{width: 100px;height: 50px;object-fit: scale-down;margin-top: 5px;}
@@ -25,7 +37,7 @@
 
 
 .body1 {
-    height: 3000px;
+    height: 6000px;
 }
 
 
@@ -72,14 +84,25 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+.obsah2_0{
+    font-size: 30px;
+    text-align: center;
+}
 .obsah2_1{
     font-size: 30px;
-text-align: center;
+    text-align: center;
+    margin-bottom: -13px;
 }
 
 .obsah2_2{
     font-size: 27px;
     text-align: center;
+}
+.obsah2_3{
+    font-size: 30px;
+    text-align: center;
+
+
 }
 
 .div_obsah2_5{
@@ -88,6 +111,7 @@ text-align: center;
     height: 195px;
     background-color: rgb(244, 244, 244);
     border-radius: 30px;
+    border-bottom: 5px solid rgb(151, 151, 151);
 }
         .div_obsah2_6{
             flex: 1;
@@ -100,11 +124,54 @@ text-align: center;
             margin-bottom: -5px;
         }
 
+.div_obsah2_7{
+    background-color: rgb(244, 244, 244);
+    border-radius: 30px;
+    border-bottom: 5px solid rgb(151, 151, 151);
+    margin-bottom: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+}
+
+.div_obsah2_7:hover{
+transform: scale(1.05);
+cursor: pointer;
+box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+transition: 1.5s ease;
+
+
+}
+
+.obrazky_nazov_bic1_div{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    height: 110px;
+
+}
+.obrazky_nazov_bic1_text{
+text-align: center;
+font-size: 45px;
 
 
 
+}
+.obrazky_bic1_div{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    height: 250px;
 
 
+}
+
+.obrazky_bic1_obrazok{
+    height: 250px;
+    object-fit: cover;
+    height: fit-content;
+    width: 395px;
+ justify-content: center;
+
+}
 
 
 
