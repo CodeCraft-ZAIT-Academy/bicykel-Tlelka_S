@@ -52,6 +52,7 @@ transition: 0.3s ease;
     display: flex;
     justify-content: right;
     padding-top: 7px;
+    z-index: 117;
 }
 .horna_lista_ikony{
     display: flex;

@@ -1,3 +1,12 @@
+
+.presmerovanie{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+
+
 .header1 {
     position: fixed;
     top: 0px;
@@ -6,9 +15,9 @@
     background-color: rgb(210, 210, 210);
     height: 80px;
     display: flex;
-    justify-content: right;
     padding-top: 7px;
     z-index: 117;
+    justify-content: space-between;
 }
 
 .horna_lista_ikony{
@@ -17,7 +26,7 @@
     margin-top: 5px;
     background-color: rgb(255, 255, 255);
     width: 100px;
-    margin-right: 50px;
+    margin-right: 40px;
     border-radius: 20px;
 }
 .horna_lista_ikony0{
@@ -26,9 +35,26 @@
     margin-top: 5px;
     background-color: rgb(255, 255, 255);
     width: 100px;
-    margin-right: 1110px;
+    margin-left: 40px;
     border-radius: 20px;
 }
+
+
+
+
+
+
+.horna_lista_ikony0:hover {
+transform: scale(0.98);
+cursor: pointer;
+box-shadow: 0 10px 20px rgba(0,0,0,0.45);
+transition: 0.3s ease;
+}
+
+
+
+
+
 .horna_lista_ikona0_obrazok{width: 100px;height: 65px;object-fit: scale-down;margin-top: -2px;}
 .horna_lista_ikona1_obrazok{width: 100px;height: 65px;object-fit: scale-down;margin-top: -2px;}
 .horna_lista_ikona2_obrazok{width: 100px;height: 50px;object-fit: scale-down;margin-top: 5px;}
@@ -37,7 +63,7 @@
 
 
 .body1 {
-    height: 6000px;
+
 }
 
 
@@ -57,7 +83,7 @@
     padding-top: 13px;
     }
 .uvod_nadpis{
-    font-size: 70px;
+    font-size: 70px;text-align: center;
 }
 
 .div_obsah1{
@@ -124,6 +150,14 @@
             margin-bottom: -5px;
         }
 
+
+.div_obsah2_5:hover{
+cursor: default;
+}
+
+
+
+
 .div_obsah2_7{
     background-color: rgb(244, 244, 244);
     border-radius: 30px;
@@ -134,13 +168,27 @@
     transition: 0.3s;
 }
 
+
+
+
+
 .div_obsah2_7:hover{
-transform: scale(1.05);
+transform: scale(1.015);
+cursor: default;
+transition: 2s ease;
+}
+
+
+
+.div_obsah2_8:hover{
+transform: scale(1.015);
+cursor: default;
+transition: 1.75s ease;
+}
+.div_obsah2_9:hover{
+transform: scale(0.95);
 cursor: pointer;
-box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-transition: 1.5s ease;
-
-
+transition: 0.4s ease;
 }
 
 .obrazky_nazov_bic1_div{
@@ -176,15 +224,49 @@ font-size: 45px;
 
 
 
+.tabulkavelkosti{
+     border: 1px solid black;
+    border-collapse: collapse; 
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 27px;
+    align-items: center;
+}
+
+
+.obsah2_5{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
 
 
 
 
+.div_obsah2_8{
+    background-color: rgb(244, 244, 244);
+    border-radius: 30px;
+    border-bottom: 5px solid rgb(151, 151, 151);
+    margin-bottom: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+    margin-top: 45px;
+}
 
-
-
-
-
+.div_obsah2_9{
+    background-color: rgba(255, 191, 102, 0.897);
+    border-radius: 30px;
+    border-bottom: 5px solid rgb(151, 151, 151);
+    margin-bottom: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+    height: 66px;
+    
+}
 
 
 
