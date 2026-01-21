@@ -29,7 +29,8 @@ transition: 0.3s ease;
 
 
 .body1 {
-    height: 3000px;
+
+    background-color: rgb(238, 242, 243);
 }
 
 
@@ -47,12 +48,12 @@ transition: 0.3s ease;
     top: 0px;
     left: 0px;
     right: 0px;
-    background-color: rgb(210, 210, 210);
+    background-color: rgba(210, 210, 210, 0.756);
     height: 80px;
     display: flex;
     justify-content: right;
     padding-top: 7px;
-    z-index: 117;
+    z-index: 15;
 }
 .horna_lista_ikony{
     display: flex;
@@ -93,7 +94,7 @@ transition: 0.3s ease;
 
 
 .uvod_div {
-    height: 300px;
+    height: 800px;
     display: flex;
     flex-direction: row;
     background-color: darkgrey;
@@ -106,17 +107,40 @@ transition: 0.3s ease;
          flex: 1;
         }
             .uvod_nadpis {
-                height: 60px;
-                background-color: rgb(255, 159, 28);
+                height: 71px;
                 margin-top: -40px;
+                z-index: 25;
+                position: relative ;
+                margin-top: -71px;
+                margin-right: 30%;
+                margin-left: 30%;
+            }
+            .uvod_nadpis_pozadie {
+                height: 71px;
+                background-color: rgba(255, 255, 255, 0);
+                margin-top: -40px;
+                z-index: 20;
+                position: relative ;
+                margin-top: -32px;
+                margin-right: 30%;
+                margin-left: 30%;
             }
             .uvod_nadpis_opis1{
                 font-size: 35px;
                 margin-left:80px;
                 margin-right: 80px;
-                margin-top: -5px;    
-                text-align: center;        
-            }
+                z-index: 10;
+                text-align: center;   
+                margin-top: 250px;  
+                position: absolute;
+                font-size: 35px;
+                text-align: center;
+                margin-bottom: -13px;
+                color: white;
+                text-shadow:
+                    0 2px 4px rgba(0,0,0,0.7),
+                    0 6px 16px rgba(0,0,0,0.45);
+                }
 
 
 
@@ -126,9 +150,11 @@ transition: 0.3s ease;
 
 
             .uvod_nadpis_text {
-                color: black;
+                color: rgb(0, 0, 0);
                 text-align: center;
                 font-size: 60px;
+                position: relative;
+                z-index: 11;
             }
             .uvod_nadpis_opis{
                 font-size: 35px;
@@ -154,6 +180,8 @@ transition: 0.3s ease;
     border: 7px solid rgb(151, 151, 151);
     border-radius: 10px;
     transition: 0.3s ease;
+    z-index: 10;
+    position: relative;
 }
         .uvod_prava_div2 {
             width: 525px;
@@ -251,3 +279,109 @@ transition: 0.3s ease;
                 background-color: #ffbf66;
                 margin-top: -40px;
             }
+
+
+
+
+
+
+
+
+.obsah2_1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: -13px;
+}
+
+.obsah2_2{
+    font-size: 20px;
+    margin-bottom: -11px;
+}
+
+.obsah2_3{
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.dotaznik-section {
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 0 15px;
+}
+
+.dotaznik-section h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 1.8rem;
+  color: #222;
+}
+
+.dotaznik-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dotaznik-form label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.dotaznik-form input,
+.dotaznik-form textarea {
+  padding: 10px 12px;
+  border: 1px solid #888;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  color: #111;
+}
+
+.dotaznik-form input:focus,
+.dotaznik-form textarea:focus {
+  outline: none;
+  border-color: #ffbf66;
+  box-shadow: 0 0 6px rgba(46,204,113,0.3);
+}
+
+.dotaznik-form button {
+  margin-top: 8px;
+  padding: 10px 0;
+  background-color: #ffbf66;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.dotaznik-form button:hover {
+  background-color: #ffbf66;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
